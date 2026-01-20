@@ -21,7 +21,7 @@ const Experience: React.FC = () => {
         </div>
         
         {/* Tactical System Hint */}
-        <div className="flex items-center gap-2 text-xs md:text-sm font-mono text-neon-cyan tracking-widest opacity-80 animate-pulse pl-1">
+        <div className="flex items-center gap-2 text-sm md:text-base font-mono text-neon-cyan tracking-widest opacity-80 animate-pulse pl-1">
             <span>[ SYSTEM ADVISORY ]</span>
             <span>HOVER CURSOR OVER REDACTED ZONES TO DECLASSIFY INTEL</span>
         </div>

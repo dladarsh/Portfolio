@@ -48,12 +48,12 @@ const Hero: React.FC<HeroProps> = ({ onStart }) => {
         {/* Text Intel */}
         <div className="text-center space-y-4 font-hud">
           <h2 className="text-neon-cyan text-sm md:text-base tracking-[0.3em] uppercase opacity-80 animate-pulse">
-            Asset Codename:
+            Asset name:
           </h2>
           <h1 className="text-4xl md:text-6xl font-black text-ghost-white tracking-tighter uppercase drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-            Loka Adarsh
+            Loka Adarsh Dronamraju
           </h1>
-          <div className="flex items-center justify-center gap-2 text-caution-orange text-lg md:text-xl font-bold tracking-widest bg-black/40 px-4 py-1 border-x-2 border-caution-orange">
+          <div className="flex flex-wrap items-center justify-center gap-2 text-caution-orange text-lg md:text-xl font-bold tracking-widest bg-black/40 px-4 py-1 border-x-2 border-caution-orange text-center">
             <span className="animate-pulse">●</span> STATUS: {RESUME_DATA.title.toUpperCase()}
           </div>
         </div>

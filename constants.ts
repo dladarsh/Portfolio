@@ -3,12 +3,12 @@ import { Database, BarChart2, Code, Terminal, Cpu, Layers } from 'lucide-react';
 
 export const RESUME_DATA = {
   name: "Loka Adarsh Dronamraju",
-  title: "Data Analyst | Product Manager",
+  title: "Data Analyst | Product Manager | Data Science",
   location: "Chicago, IL",
   contact: {
     phone: "312-792-7160",
     email: "dladarsh73@gmail.com",
-    linkedin: "LinkedIn",
+    linkedin: "https://www.linkedin.com/in/loka-adarsh-dronamraju-126558183/",
     github: "https://github.com/dladarsh"
   },
   education: [
