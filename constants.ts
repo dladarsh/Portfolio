@@ -90,7 +90,7 @@ export const PROJECTS: ProjectItem[] = [
       "Cleaned and explored customer data to uncover key churn drivers and translate insights into practical business recommendations."
     ],
     link: "https://github.com/dladarsh/Telcom-Churn-Analysis",
-    image: "<img src={`${import.meta.env.BASE_URL}Images/Image3.png`} alt=\"Project Image\" />"
+    image: "${import.meta.env.BASE_URL}Images/Image3.png"
   },
   {
     id: "proj-1",
@@ -103,7 +103,7 @@ export const PROJECTS: ProjectItem[] = [
       "Applied clustering techniques to uncover high-risk subgroups."
     ],
     link: "https://github.com/dladarsh/Healthcare-Insights",
-    image: "<img src={`${import.meta.env.BASE_URL}Images/Image1.png`} alt=\"Project Image\" />"
+    image: "${import.meta.env.BASE_URL}Images/Image1.png"
   },
   {
     id: "proj-2",
@@ -115,7 +115,7 @@ export const PROJECTS: ProjectItem[] = [
       "Created custom DAX measures (YTD Sales, Profit Variance, % Change) for real-time insights."
     ],
     link: "https://github.com/dladarsh/Maven-Toy-s-Store",
-    image: "<img src={`${import.meta.env.BASE_URL}Images/Image4.png`} alt=\"Project Image\" />"
+    image: "${import.meta.env.BASE_URL}Images/Image4.png"
   },
   {
     id: "proj-3",
@@ -128,7 +128,7 @@ export const PROJECTS: ProjectItem[] = [
       "Designed clear reporting outputs to communicate insights in a clear storytelling format."
     ],
     link: "https://github.com/dladarsh/Unveiling-Twitch-Trends",
-    image: "<img src={`${import.meta.env.BASE_URL}Images/Image2.png`} alt=\"Project Image\" />"
+    image: "${import.meta.env.BASE_URL}Images/Image2.png"
   },
   {
     id: "proj-4",
@@ -141,7 +141,7 @@ export const PROJECTS: ProjectItem[] = [
       "Performed data preprocessing, EDA, and model evaluation using Python (Pandas, NumPy, Matplotlib) to support data-driven product insights."
     ],
     link: "https://drive.google.com/file/d/11Dl4pZs69mRDAeTmHpEIP6pQ9bSzErP0/view",
-    image: "<img src={`${import.meta.env.BASE_URL}Images/Image5.png`} alt=\"Project Image\" />"
+    image: "${import.meta.env.BASE_URL}Images/Image5.png"
   }
 ];
 
