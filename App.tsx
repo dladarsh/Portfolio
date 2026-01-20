@@ -39,7 +39,7 @@ const App: React.FC = () => {
     }
     // Trigger the actual download
   const link = document.createElement("a");
-  link.href = "/Loka_Adarsh_Dronamraju.pdf";       
+  link.href = `${import.meta.env.BASE_URL}resume/Loka-Adarsh-Dronamraju.pdf`;       
   link.download = "Loka_Adarsh_Dronamraju_Resume.pdf";  // File name when downloaded
   document.body.appendChild(link);
   link.click();
