@@ -128,7 +128,7 @@ export const PROJECTS: ProjectItem[] = [
       "Designed clear reporting outputs to communicate insights in a clear storytelling format."
     ],
     link: "https://github.com/dladarsh/Unveiling-Twitch-Trends",
-    image: `${import.meta.env.BASE_URL}Images/Image2.png`
+    image: `${import.meta.env.BASE_URL}public/Images/Image2.png`
   },
   {
     id: "proj-4",
