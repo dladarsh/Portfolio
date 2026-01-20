@@ -115,7 +115,7 @@ export const PROJECTS: ProjectItem[] = [
       "Created custom DAX measures (YTD Sales, Profit Variance, % Change) for real-time insights."
     ],
     link: "https://github.com/dladarsh/Maven-Toy-s-Store",
-    image: `${import.meta.env.BASE_URL}Images/Image3.png`
+    image: `${import.meta.env.BASE_URL}Images/Image4.png`
   },
   {
     id: "proj-3",
@@ -141,7 +141,7 @@ export const PROJECTS: ProjectItem[] = [
       "Performed data preprocessing, EDA, and model evaluation using Python (Pandas, NumPy, Matplotlib) to support data-driven product insights."
     ],
     link: "https://drive.google.com/file/d/11Dl4pZs69mRDAeTmHpEIP6pQ9bSzErP0/view",
-    image: `${import.meta.env.BASE_URL}Images/Image3.png`
+    image: `${import.meta.env.BASE_URL}Images/Image5.png`
   }
 ];
 
