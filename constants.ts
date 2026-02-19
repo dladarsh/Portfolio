@@ -36,7 +36,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "Sep 2025 – Present",
     details: [
       "Developed structured product documentation (PRDs, workflows, acceptance criteria) to support cross-functional collaboration and ensure clarity in digital feature developments",
-      "Collaborated with stakeholders to refine user-facing features and clarify digital workflows, resulting in improved user experience and streamlined development processes.",
+      "Collaborated with stakeholders to refine user-facing features and clarify digital workflows.",
       "Integrated user feedback and usage data to enhance product experience and feature usability."
     ]
   },
@@ -48,7 +48,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "June 2022 – Dec 2022",
     details: [
       "Analyzed 70K+ telecom customer records using SQL and Python to identify key behavioral and contract-based churn drivers through cohort and tenure segmentation",
-      "Identified high-risk segments, including new customers (53% churn) and month-to-month contracts (43% churn), while uncovering strong retention effects among multi-service users (5% churn vs. 46%)",
+      "Identified high-risk segments, including new customers and month-to-month contracts, while uncovering strong retention effects among multi-service users (5% churn vs. 46%)",
       "Developed interactive Power BI dashboards visualizing the 27% overall churn rate, translating analytical findings into actionable retention and cross-sell strategy recommendations"
     ]
   },
@@ -79,6 +79,31 @@ export const EXPERIENCE: ExperienceItem[] = [
 ];
 
 export const PROJECTS: ProjectItem[] = [
+  {
+    id: "proj-1",
+    name: "Healthcare Insights",
+    tech: "Python, Data Mining, EDA, ML, Clustering",
+    period: "Jan 2024 – May 2024",
+    description: [
+      "Processed 991K+ patient health records to ensure data quality and completeness.",
+      "Developed predictive models (Logistic Regression, RF, Gradient Boosting, NN) achieving 73% accuracy.",
+      "Applied clustering techniques to uncover high-risk subgroups."
+    ],
+    link: "https://github.com/dladarsh/Healthcare-Insights",
+    image: `${import.meta.env.BASE_URL}Images/Image1.png`
+  },
+  {
+    id: "proj-2",
+    name: "Maven Toy’s Store",
+    tech: "Power BI, ETL, Power Query, DAX",
+    period: "Nov 2024 – Dec 2024",
+    description: [
+      "Designed an interactive sales dashboard consolidating inventory, transactions, and customer data.",
+      "Created custom DAX measures (YTD Sales, Profit Variance, % Change) for real-time insights."
+    ],
+    link: "https://github.com/dladarsh/Maven-Toy-s-Store",
+    image: `${import.meta.env.BASE_URL}Images/Image4.png`
+  },
   {
     id: "proj-3",
     name: "Twitch Stream Analytics",
