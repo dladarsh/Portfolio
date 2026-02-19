@@ -56,7 +56,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     id: "exp-3",
     role: "Data Science Intern",
     company: "DevStack Solutions",
-    location: "",
+    location: "India",
     period: "Nov 2021 – Dec 2021",
     details: [
       "Developed data pipelines in Python (Pandas, NumPy) to clean and transform 9.8K+ records.",
@@ -68,7 +68,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     id: "exp-4",
     role: "Data Analyst Intern",
     company: "GoalStreet",
-    location: "",
+    location: "India",
     period: "May 2020 – Jul 2020",
     details: [
       "Extracted and transformed large visa datasets using SQL and Python to enable predictive analytics.",
